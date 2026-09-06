@@ -2,6 +2,8 @@
 
 A collection of classic data structures and algorithm implementations, written in both **Python** and **C++** for comparison and deeper understanding of syntax, performance, and low-level behavior.
 
+Structured to follow **Adel Nasim's "Data Structures Full Course In Arabic"** (37 lessons), implementing each topic in both languages as I go through the course.
+
 ## 📌 Goal
 
 This repo is a personal learning journey to master Data Structures and Algorithms by implementing the same concepts in two different languages — one high-level (Python) and one low-level (C++) — to better understand:
@@ -15,37 +17,52 @@ This repo is a personal learning journey to master Data Structures and Algorithm
 ```
 .
 ├── python/
-│   ├── arrays_strings/
-│   ├── linked_lists/
-│   ├── stacks_queues/
-│   ├── trees/
-│   ├── graphs/
-│   ├── sorting_searching/
-│   └── recursion_dp/
+│   ├── 01_complexity/
+│   ├── 02_stack/
+│   ├── 03_queue/
+│   ├── 04_array_based_list/
+│   ├── 05_linked_list/
+│   ├── 06_doubly_linked_list/
+│   ├── 07_trees/
+│   ├── 08_huffman_coding/
+│   ├── 09_sorting/
+│   ├── 10_searching/
+│   ├── 11_hashing/
+│   └── 12_graphs/
 │
 ├── cpp/
-│   ├── arrays_strings/
-│   ├── linked_lists/
-│   ├── stacks_queues/
-│   ├── trees/
-│   ├── graphs/
-│   ├── sorting_searching/
-│   └── recursion_dp/
+│   ├── 01_complexity/
+│   ├── 02_stack/
+│   ├── 03_queue/
+│   ├── 04_array_based_list/
+│   ├── 05_linked_list/
+│   ├── 06_doubly_linked_list/
+│   ├── 07_trees/
+│   ├── 08_huffman_coding/
+│   ├── 09_sorting/
+│   ├── 10_searching/
+│   ├── 11_hashing/
+│   └── 12_graphs/
 │
 └── README.md
 ```
 
 Each topic folder contains the same set of problems solved in both languages, so you can compare implementations side by side.
 
-## 📚 Topics Covered
+## 📚 Topics Covered (following the course order)
 
-- **Arrays & Strings** — manipulation, two-pointer, sliding window
-- **Linked Lists** — singly, doubly, circular
-- **Stacks & Queues** — array-based, linked-list-based, applications
-- **Trees** — binary trees, BST, AVL, heaps, traversals
-- **Graphs** — BFS, DFS, shortest path algorithms (Dijkstra, etc.)
-- **Sorting & Searching** — bubble, merge, quick, binary search, etc.
-- **Recursion & Dynamic Programming** — classic DP problems, memoization vs tabulation
+- **Complexity** — Big O analysis
+- **Stack** — array-based, linked-list-based, balanced parentheses, infix→postfix, expression evaluation
+- **Queue** — simple queue, circular queue (array-based), linked-list-based queue
+- **Array-Based List** — implementation from scratch
+- **Linked List** — insert/remove (first, last, at position), reverse, search
+- **Doubly Linked List** — insert/remove (first, last, at position)
+- **Trees** — binary trees, tree traversal (pre/in/post/level order), BST (insert/delete/search, successor/predecessor/max/min), AVL trees (rotations)
+- **Huffman Coding Algorithm**
+- **Sorting Algorithms** — selection, bubble, insertion, merge, quick, heap sort
+- **Searching Algorithms** — linear search, binary search
+- **Hashing** — hash tables
+- **Graphs** — introduction & representation, BFS, DFS, Dijkstra's shortest path
 
 ## 🧠 Complexity Analysis
 
@@ -71,15 +88,20 @@ g++ <filename>.cpp -o output
 
 ## 📈 Progress Tracker
 
-| Topic                  | Python | C++ |
-|-------------------------|:------:|:---:|
-| Arrays & Strings         | ⬜     | ⬜  |
-| Linked Lists             | ⬜     | ⬜  |
-| Stacks & Queues          | ⬜     | ⬜  |
-| Trees                    | ⬜     | ⬜  |
-| Graphs                   | ⬜     | ⬜  |
-| Sorting & Searching      | ⬜     | ⬜  |
-| Recursion & DP           | ⬜     | ⬜  |
+| # | Topic | Python | C++ |
+|---|-------|:------:|:---:|
+| 1 | Complexity | ⬜ | ⬜ |
+| 2 | Stack (array + linked, parentheses, infix→postfix) | ⬜ | ⬜ |
+| 3 | Queue (simple, circular, linked) | ⬜ | ⬜ |
+| 4 | Array-Based List | ⬜ | ⬜ |
+| 5 | Linked List (insert/remove/reverse/search) | ⬜ | ⬜ |
+| 6 | Doubly Linked List | ⬜ | ⬜ |
+| 7 | Trees (Binary, Traversal, BST, AVL) | ⬜ | ⬜ |
+| 8 | Huffman Coding | ⬜ | ⬜ |
+| 9 | Sorting (Selection/Bubble/Insertion/Merge/Quick/Heap) | ⬜ | ⬜ |
+| 10 | Searching (Linear/Binary) | ⬜ | ⬜ |
+| 11 | Hashing (Hash Table) | ⬜ | ⬜ |
+| 12 | Graphs (Intro, BFS, DFS, Dijkstra) | ⬜ | ⬜ |
 
 ## 🤝 Contributing
 
